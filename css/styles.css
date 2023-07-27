@@ -707,7 +707,7 @@ border-color:var(--primary-accent-color);
     fill: transparent;
 }
 
-.checkbox-input:checked{
+.checkbox-input:checked + .modal-label .checkbox-span{
 background-color:var(--deepblue-color);
 border: none;
 fill:var(--paragraph-color);
