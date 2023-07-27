@@ -652,7 +652,7 @@ margin-right: 120px;
 }
 
 .form-input:focus{
-    color:var(--primary-accent-color);
+border-color:var(--primary-accent-color);
 }
 
 .modal-svg{
@@ -663,7 +663,7 @@ margin-right: 120px;
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.modal-svg:focus .modal-input{
+.form-input:focus,.modal-svg{
     fill: #4D5AE5;
 }
 
