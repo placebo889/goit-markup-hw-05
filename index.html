@@ -358,17 +358,18 @@
     </footer>
 
     <div class="backdrop is-hidden" data-modal>
-        < class="modal-content">
+        <div class="modal-content">
             <button class="close-btn" type="button" data-modal-close><svg class="smooth-btn" width="8" height="8">
                     <use href="./images/icons.svg#icon-button"></use>
                 </svg></button>
                 <p class="modal-paragraph">
                     Leave your contacts and we will call you back
                 </p>
+            <form>
 <div class="modal-form-class">
-    <label class="modal-label" for="user-name">
+<label class="modal-label" for="user-name">
     Name 
-    </label>
+</label>
     <div class="modal-input">
 <input class="form-input" id="user-name" name="user-name"  type="text"/>
 <svg class="modal-svg" width="18" height="24">
@@ -383,9 +384,9 @@
         Phone
     </label>
     <div class="modal-input">
-<input class="form-input" id="user-name" name="user-name" type="text" />
+        <input class="form-input" id="user-name" name="user-name" type="text" />
         <svg class="modal-svg" width="18" height="24">
-            <use href="./images/icons.svg#icon-telephone">
+            <use href="./images/icons.svg#icon-person">
             </use>
         </svg>
     </div>
@@ -396,13 +397,12 @@
         Email
     </label>
     <div class="modal-input">
-<input class="form-input" id="user-name" name="user-name" type="text" />
+        <input class="form-input" id="user-name" name="user-name" type="text" />
         <svg class="modal-svg" width="18" height="24">
-            <use href="./images/icons.svg#icon-mail">
+            <use href="./images/icons.svg#icon-person">
             </use>
         </svg>
     </div>
-</div>
 
     <div class="modal-form-comment">
         <label class="modal-label" for="user-comment">
@@ -411,7 +411,11 @@
         <textarea class="form-textarea" id="user-comment" name="user-comment" placeholder="Text input">
 
         </textarea>
+    </div>
+</div>
         </div>
+    </div>
+
     <script src="./js/modal.js"></script>
 </body>
 </html>
