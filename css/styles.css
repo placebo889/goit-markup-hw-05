@@ -705,7 +705,16 @@ border-color:var(--primary-accent-color);
     align-items: center;
     justify-content: center;
     fill: transparent;
-    
+}
+
+.checkbox-input:checked{
+background-color:var(--deepblue-color);
+border: none;
+fill:var(--paragraph-color);
+}
+
+.label-link{
+    color:var(--primary-accent-color);
 }
 
 .close-btn{
