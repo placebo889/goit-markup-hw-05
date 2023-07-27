@@ -592,10 +592,7 @@ margin-right: 120px;
 
 .footer-form{
     display: flex;
-    margin-left:60px
-}
-
-footer-label{
+    margin-left:60px;
     gap: 24px;
 }
 
