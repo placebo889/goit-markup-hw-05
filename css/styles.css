@@ -765,6 +765,7 @@ border-color:var(--primary-accent-color);
     align-items: center;
     justify-content: center;
     fill: transparent;
+    margin-right: 8px;
 }
 
 .checkbox-input:checked + .modal-label .checkbox-span{
